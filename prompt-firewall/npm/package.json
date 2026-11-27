@@ -1,0 +1,12 @@
+{
+  "name": "prompt-firewall",
+  "version": "0.1.0",
+  "description": "Local, zero-dependency guardrail for LLM apps: blocks PII (Luhn cards, Verhoeff Aadhaar), API-key/secret leaks, and prompt injection before text leaves your process. Sub-millisecond, no network.",
+  "main": "src/index.js",
+  "files": ["src/"],
+  "scripts": { "test": "node test/test.js" },
+  "keywords": ["llm", "prompt-injection", "pii", "redaction", "security", "guardrail", "ai", "firewall", "secrets", "zero-dependency"],
+  "license": "MIT",
+  "engines": { "node": ">=12" },
+  "repository": { "type": "git", "url": "https://github.com/Amanbhaw/prompt-firewall" }
+}

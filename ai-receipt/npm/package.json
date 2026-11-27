@@ -1,0 +1,15 @@
+{
+  "name": "ai-receipt",
+  "version": "0.1.0",
+  "description": "Zero-dependency cryptographic audit receipts for AI agents & LLM calls. Tamper-evident SHA-256 hash chain, selective disclosure, O(1) fold. Cross-verifiable with the PyPI package.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": ["src/"],
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": ["ai", "llm", "audit", "receipt", "tamper-proof", "compliance", "soc2", "hash-chain", "agent", "zero-dependency"],
+  "license": "MIT",
+  "engines": { "node": ">=14" },
+  "repository": { "type": "git", "url": "https://github.com/Amanbhaw/ai-receipt" }
+}

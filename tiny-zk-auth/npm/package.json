@@ -1,0 +1,12 @@
+{
+  "name": "tiny-zk-auth",
+  "version": "0.1.0",
+  "description": "Tiny zero-dependency auth + commitment toolkit: Mersenne-31 cross-platform fingerprint, HMAC-SHA256 device challenge-response, and Merkle membership proofs. Runs identically in browser, Node, Python and a $1 MCU.",
+  "main": "src/index.js",
+  "files": ["src/"],
+  "scripts": { "test": "node test/test.js" },
+  "keywords": ["mersenne31", "merkle", "commitment", "hmac", "iot", "device-auth", "fingerprint", "depin", "zero-dependency", "embedded"],
+  "license": "MIT",
+  "engines": { "node": ">=12" },
+  "repository": { "type": "git", "url": "https://github.com/Amanbhaw/tiny-zk-auth" }
+}
