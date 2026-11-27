@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vedic-bpe"
+version = "0.1.0"
+description = "Lossless LLM token reducer for repetitive structured JSON (zero-dependency, tiktoken-measured)."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Aman Bhawsar"}]
+keywords = ["llm", "tokens", "tiktoken", "json", "compression", "prompt", "rag", "lossless"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Amanbhaw/ai-packages"
+
+[tool.setuptools.packages.find]
+where = ["src"]
