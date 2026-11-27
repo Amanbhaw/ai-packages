@@ -1,0 +1,11 @@
+{
+  "name": "vedic-bpe",
+  "version": "0.1.0",
+  "description": "Lossless LLM token reducer for repetitive structured JSON (zero-dependency).",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/test.js" },
+  "keywords": ["llm","tokens","tiktoken","json","compression","prompt","rag","lossless"],
+  "author": "Aman Bhawsar",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/Amanbhaw/ai-packages" }
+}

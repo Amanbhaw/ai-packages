@@ -40,7 +40,7 @@ def pack(json_text: str) -> str:
         if all(ms) and len({m.group(1) for m in ms}) == 1 and all(str(int(m.group(2)))==m.group(2) for m in ms):
             pref = ms[0].group(1); base = (min(int(m.group(2)) for m in ms) // 100) * 100
             nik[c] = (pref, base)
-    hdr = _SEP.join((f"{c}=" + json.dumps([nik[c][1], nik[c][0]], ensure_ascii=False) if c in nik else c) for c in keys)
+    hdr = _SEP.join((f"{c}=" + json.dumps([nik[c][1], nik[c][0]], ensure_ascii=False, separators=(",",":")) if c in nik else c) for c in keys)
     out = [hdr]; prev = None
     for r in data:
         cells = []
