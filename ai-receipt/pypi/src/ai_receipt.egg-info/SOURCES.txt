@@ -1,0 +1,7 @@
+pyproject.toml
+src/ai_receipt/__init__.py
+src/ai_receipt.egg-info/PKG-INFO
+src/ai_receipt.egg-info/SOURCES.txt
+src/ai_receipt.egg-info/dependency_links.txt
+src/ai_receipt.egg-info/top_level.txt
+tests/test_receipt.py

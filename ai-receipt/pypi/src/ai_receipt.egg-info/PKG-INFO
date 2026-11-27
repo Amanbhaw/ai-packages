@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: ai-receipt
+Version: 0.1.0
+Summary: Zero-dependency cryptographic audit receipts for AI agents & LLM calls (tamper-evident hash chain, selective disclosure, O(1) fold). Cross-verifiable with the npm package.
+License: MIT
+Project-URL: Homepage, https://github.com/Amanbhaw/ai-receipt
+Keywords: ai,llm,audit,receipt,tamper-proof,compliance,soc2,hash-chain,agent
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

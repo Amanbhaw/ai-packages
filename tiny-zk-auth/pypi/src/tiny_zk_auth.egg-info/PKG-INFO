@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: tiny-zk-auth
+Version: 0.1.0
+Summary: Tiny zero-dependency auth + commitment toolkit: Mersenne-31 cross-platform fingerprint, HMAC-SHA256 device challenge-response, and Merkle membership proofs.
+License: MIT
+Project-URL: Homepage, https://github.com/Amanbhaw/tiny-zk-auth
+Keywords: mersenne31,merkle,commitment,hmac,iot,device-auth,fingerprint,embedded
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ai-receipt"
+name = "ai-audit-receipt"
 version = "0.1.0"
 description = "Zero-dependency cryptographic audit receipts for AI agents & LLM calls (tamper-evident hash chain, selective disclosure, O(1) fold). Cross-verifiable with the npm package."
 readme = "README.md"
