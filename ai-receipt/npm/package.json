@@ -1,5 +1,5 @@
 {
-  "name": "ai-receipt",
+  "name": "@amanbhawsar/ai-receipt",
   "version": "0.1.0",
   "description": "Zero-dependency cryptographic audit receipts for AI agents & LLM calls. Tamper-evident SHA-256 hash chain, selective disclosure, O(1) fold. Cross-verifiable with the PyPI package.",
   "main": "src/index.js",
